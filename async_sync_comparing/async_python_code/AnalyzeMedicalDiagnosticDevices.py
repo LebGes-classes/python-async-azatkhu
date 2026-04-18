@@ -1,8 +1,9 @@
 from ExcelParser import ExcelParser
 from MedicalDevicesStatus import MedicalDeviceStatus
 
-import asyncio
 import pandas as pd
+
+import asyncio
 import time
 
 
