@@ -94,7 +94,6 @@ class Menu:
         df4 = analyzer.create_pivot_table()
         analyzer.dataframes_to_excel([df1, df2, df3, df4], ['filtered_warranty', 'sorted_devices_issues', 'calibration_dates', 'table'], self.__count)
         
-
     def user_choices(
         self, 
         choice_warranty_until_filter: int = 1, 
